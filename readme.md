@@ -2,7 +2,7 @@
 
 ## Project Description
 
-In this web application every Revature employee can connect to other employees, whether it be an associate, a trainer, or contracted employees. Each person has their own account, that comes with a unique username, Revature employee information. Within this network employees can access locations and information to help them with many different possibilities. Also it is being created to ease the transition as a Revature employee, whether it be as a trainer/associate, contracted employee/contractor, or staff member.
+This is a social media application created with Spring and Angular. Users can post on a global feed, react on other posts, send messages in a global chatroom, create a profile, and view other profiles. Through an AWS Lambda function, all posts, comments, media, and other public data is deleted from the database every 40 days. Originally created by Joe Rice, Brandon Dcruz, Devin Kadrie, and Luis Mendoza as Project 2 for the Revature training program in April 2021.
 
 ## Technologies Used
 
@@ -23,28 +23,52 @@ In this web application every Revature employee can connect to other employees, 
 
 ## Features
 
-- Create an account and login to an account.
-- Create a post and react to other posts.
-- Search for friends.
-- View friends post in feed.
-- Edit profile information (email, password, etc).
+- Register an account and login.
+- Create posts and react to other posts.
+- Search for users.
+- View posts made by others in a public global feed.
+- Create and edit personal profile information (bio, profile pic, email, password, etc).
 
 ### To-do list:
 
-- Add websockets for live feed or chat feature.
-- Edit post
+- Finish web socket chatroom feature
+- Add comments
+- Refactor with Spring Boot and OAuth with Spring Security
+- Add email service
 
 ## Getting Started
+   
+> Clone this repository
+```
+git clone https://github.com/cptnbrando/Brandon-Dcruz-Revature-Project-1-ERS.git
+```
 
-- `git clone`
-- start tomcat server
-- start angular project
-- and enjoy biatch
+> Download Tomcat
+```
+https://tomcat.apache.org/
+```
+
+> npm install in angular project folder
+```
+npm i 40forty/fortyforty
+```
 
 ## **Usage**
 
-[//we](//we) need to guide the user on how to use the app.
+
+> Run with Tomcat configuration in IDE
+
+> Run angular project
+```
+cd 40forty/fortyforty
+npm i
+```
+
+> Visit localhost in web browser
+```
+http://localhost:40forty
+```
 
 ## **License**
 
-This project uses the following license: [<The MIT License>](https://github.com/PorkodiVenkatesh/PROJECT-NAME/blob/master/link).
+This project uses the following license: [<The MIT License>](https://www.mit.edu/~amini/LICENSE.md).
