@@ -1,4 +1,4 @@
-# 40forty - The Social Media
+# 40forty - A ~~Social Media~~
 
 ## Project Description
 
