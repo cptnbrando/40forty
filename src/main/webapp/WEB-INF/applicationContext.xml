@@ -31,9 +31,9 @@
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="org.postgresql.Driver"/>
         <property name="url"
-                  value="jdbc:postgresql://db40forty.cimqzwh2urdj.us-east-2.rds.amazonaws.com/db40forty"/>
-        <property name="username" value="teamzuko"/>
-        <property name="password" value="P4ssw0rd"/>
+                  value="jdbc:postgresql://${FORTY_DB_ENDPOINT}/db40forty"/>
+        <property name="username" value="${FORTY_DB_USERNAME}"/>
+        <property name="password" value="${FORTY_DB_PASSWORD}"/>
     </bean>
 
 
