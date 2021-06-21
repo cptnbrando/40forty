@@ -61,7 +61,7 @@ npm i 40forty/fortyforty
 > Run angular project
 ```
 cd 40forty/fortyforty
-npm i
+npm run start
 ```
 
 > Visit localhost in web browser
