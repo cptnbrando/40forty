@@ -40,7 +40,7 @@ This is a social media application created with Spring and Angular. Users can po
    
 > Clone this repository
 ```
-git clone https://github.com/cptnbrando/Brandon-Dcruz-Revature-Project-1-ERS.git
+git clone https://github.com/cptnbrando/40forty
 ```
 
 > Download Tomcat
